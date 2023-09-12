@@ -13,6 +13,14 @@ body {
     display: flex;
 }
 
+h2 {
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 20px;
+}
+
 /* @media (min-width: 375px) and (max-width: 1440) {
 
 } */
