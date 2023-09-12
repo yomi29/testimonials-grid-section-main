@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -19,6 +24,7 @@ body {
     gap: 2rem;
     margin: 1rem;
     padding: 1rem;
+     width: 100%;
     /* background-color: hsl(0, 0%, 81%); */
 }
 
@@ -83,45 +89,13 @@ p {
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 540px) {
     .container {
-        /* margin-top: 2rem;
-        margin-left: -4rem; */
+        margin: 0;
         grid-template-columns: 1fr;
-        width: 100%;
     } 
+    .container > * {
+        grid-area: auto;
+        /* width: 100%; */
+    }
 }
-    .item1 {
-        background-color: hsl(263, 55%, 52%);
-        border-radius: 10px;
-        color: hsl(0, 0%, 100%);
-        padding: 2rem;
-    }
-    
-    .item2 {
-        background-color: hsl(217, 19%, 35%);
-        border-radius: 10px;
-        color: hsl(0, 0%, 100%);
-        padding: 2rem;
-    }
-    
-    .item3 {
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 10px; 
-        color: hsl(217, 19%, 35%);
-        padding: 2rem;
-    }
-    
-    .item4 {
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 10px;
-        color: hsl(217, 19%, 35%);
-        padding: 2rem;
-    }
-    
-    .item5 {
-        background-color: hsl(219, 29%, 14%);
-        border-radius: 10px;
-        color: hsl(0, 0%, 100%);
-        padding: 2rem;
-    }
