@@ -8,6 +8,10 @@ body {
     display: flex;
 }
 
+/* @media (min-width: 375px) and (max-width: 1440) {
+
+} */
+
 .container {
     height: 100vh;
     display: grid;
@@ -79,18 +83,12 @@ p {
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 375px) {
+@media only screen and (max-width: 540px) {
     .container {
-        height: 100vh;
-        display: grid;
         margin-top: 2rem;
         margin-left: -4rem;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
+        grid-template-columns: 1fr;
+    } 
     .item1 {
         background-color: hsl(263, 55%, 52%);
         border-radius: 10px;
