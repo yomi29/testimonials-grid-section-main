@@ -89,7 +89,8 @@ p {
         margin-left: -4rem;
         grid-template-columns: 1fr;
     } 
-    .item1 {
+}
+    /* .item1 {
         background-color: hsl(263, 55%, 52%);
         border-radius: 10px;
         grid-area: 1 / 1 / 2 / 2;
@@ -128,4 +129,4 @@ p {
         color: hsl(0, 0%, 100%);
         padding: 2rem;
     }
-}
+} */
